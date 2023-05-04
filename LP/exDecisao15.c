@@ -47,7 +47,7 @@ int main() {
         tipoTriangulo = 3;
     }
     
-    if (isTriangulo = 1) {
+    if (isTriangulo == 1) {
         switch (tipoTriangulo) {
         case 1:
             printf("O triângulo é equilátero\n");
