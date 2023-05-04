@@ -31,11 +31,11 @@ int main() {
     } else if (lado3 < (lado2 + lado1) && lado3 > (abs(lado2 - lado1))) {
         isTriangulo = 1;
     } else {
-        printf("Os valores inseridos não correspondem a um triângulo.");
+        printf("Os valores inseridos não correspondem a um triângulo.\n");
         return 0;
     }
 
-    printf("Os valores inseridos podem corresponder a um triângulo\n");
+    printf("Os valores inseridos podem corresponder a um triângulo.\n");
 
     if (lado1 == lado2 && lado1 == lado3) {
         tipoTriangulo = 1;
@@ -50,16 +50,16 @@ int main() {
     if (isTriangulo == 1) {
         switch (tipoTriangulo) {
         case 1:
-            printf("O triângulo é equilátero\n");
+            printf("O triângulo é equilátero.\n");
             break;
         case 2:
-            printf("O triângulo é isósceles\n");
+            printf("O triângulo é isósceles.\n");
             break;
         case 3:
-            printf("O triângulo é escaleno\n");
+            printf("O triângulo é escaleno.\n");
             break;
         default:
-            printf("O valor não corresponde a um triângulo\n");
+            printf("Os valores inseridos não correspondem a um triângulo.\n");
             break;
         }
     }
