@@ -3,5 +3,6 @@ Exercícios de programação da faculdade divididos por disciplina
 
 LP - https://wiki.python.org.br/EstruturaSequencial<br>
      https://wiki.python.org.br/EstruturaDeDecisao
+     https://wiki.python.org.br/EstruturaDeRepeticao
 
 Programming exercises for college divided by discipline.
