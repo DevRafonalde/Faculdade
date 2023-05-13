@@ -16,6 +16,7 @@ int main() {
         numero3 = numero1 + numero2;
         numero1 = numero2;
         numero2 = numero3;
+        // Esse if é para fazer com que o último número da sequência não tenha uma vírgula depois
         if (i == n - 1) {
             printf("%d", numero3);
         } else {
