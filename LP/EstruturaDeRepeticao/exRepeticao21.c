@@ -11,6 +11,11 @@ int main() {
     if (numero <= 1) {
         isPrimo = 0;
     }
+    
+    // Se um número não é primo, ele pode ser fatorado em 2 fatores (a e b) maiores que 1 pelo menos, certo?
+    // Se a e b fossem maiores que a raiz desse número, quando vc multiplicar os 2, ele vai dar maior que o numero
+    // Então, se você testar todos os "i" até que ele seja menor que a raiz do número, você consegue evitar que ele fique dividindo por números inúteis
+    
 
     for (int i = 2; i * i <= numero; i++) {
         if (numero % i == 0) {
