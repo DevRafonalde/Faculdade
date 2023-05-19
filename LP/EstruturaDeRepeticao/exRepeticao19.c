@@ -14,7 +14,7 @@ int main() {
     printf("Quantos números terão no conjunto?\n");
     scanf("%d", &tamanho);
 
-    while (0 < numero || numero > 1000) {
+    while (0 < numero || numero < 1000) {
         printf("Digite o 1º número entre 0 e 1000:\n");
         scanf("%d", &numero);
     }
@@ -22,7 +22,7 @@ int main() {
     maiorNumero = numero;
     menorNumero = numero;
     for (int i = 0; i < tamanho - 1; i++) {
-        while (0 < numero || numero > 1000) {
+        while (0 < numero || numero < 1000) {
             printf("Digite o %dº número entre 0 e 1000:\n", i + 2);
             scanf("%d", &numero);
         }
