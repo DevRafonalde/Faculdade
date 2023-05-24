@@ -6,14 +6,14 @@ int main() {
     double altura[5];
 
     for (int i = 0; i < 5; i++) {
-        printf("Digite a idade da %dª pessoa: ", i + 1);
+        printf("\nDigite a idade da %dª pessoa: ", i + 1);
         scanf("%d", &idade[i]);
         printf("Digite a altura da %dª pessoa: ", i + 1);
         scanf("%lf", &altura[i]);
     }
 
-    for (int i = 0; i < 5; i++) {
-        printf("A altura da %dª pessoa é: %.2lf\n", i + 1, altura[i]);
+    for (int i = 4; i >= 0; i--) {
+        printf("\nA altura da %dª pessoa é: %.2lf\n", i + 1, altura[i]);
         printf("A idade da %dª pessoa é: %d\n", i + 1, idade[i]);
     }
 }
