@@ -22,6 +22,8 @@ int main() {
     int qntdAcimaMedia;
     int qntdAbaixoSete;
 
+    // Esse é um do-while que vai ficar perguntando ao usuário qual o valor da nota que ele quer inserir até que o valor inserido seja -1
+    // Nesse momento, ele não vai inserir o -1 no array e vai sair do loop
     do {
         printf("Digite um valor: ");
         scanf("%lf", &valorIntermediario);
