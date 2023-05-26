@@ -11,8 +11,11 @@
 #include <stdio.h>
 
 int main() {
+    // Coloquei esse número enorme só pra poder dizer que é um número indeterminado
     double valores[9999999];
-    double valorInt;
+    // Esse vai ser um valor intermediário, só pra poder verificar se ele n é -1, pois, caso ele seja -1, eu não vou incluir ele no array/vetor
+    double valorIntermediario;
+    // Basicamente, esse contador só vai server para alterar o index do array e saber quantos foram inseridos no final
     int contador;
     double soma = 0;
     double media;
@@ -21,16 +24,18 @@ int main() {
 
     do {
         printf("Digite um valor: ");
-        scanf("%lf", &valorInt);
-        if (valorInt != -1) {
-            valores[contador] = valorInt;
+        scanf("%lf", &valorIntermediario);
+        if (valorIntermediario != -1) {
+            valores[contador] = valorIntermediario;
             contador++;
         }
-    } while (valorInt != -1);
+    } while (valorIntermediario != -1);
 
+    // Aqui eu adiciono mais 1 ao print do contador pq ele começou em 0 e eu não quero sber o index do último número, e sim quantos existem
     printf("Foram inseridos %d números", contador + 1);
 
     for (int i = 0; i <= contador; i++) {
+        // Aqui eu já somo todos os valores enquanto printo os números em sequência, assim me poupa de escrever um laço for a mais
         soma += valores[i];
         printf("%d ", valores[i]);
     }
