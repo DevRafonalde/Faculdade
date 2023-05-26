@@ -65,7 +65,5 @@ int main() {
     printf("A quantidade de valores acima da média é: %d", qntdAcimaMedia);
     printf("A quantidade de valores abaixo de 7 é: %d", qntdAbaixoSete);
 
-    printf("O programa foi encerrado");
-
-    
+    printf("O programa foi encerrado");   
 }
