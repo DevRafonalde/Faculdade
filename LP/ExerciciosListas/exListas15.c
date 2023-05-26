@@ -13,7 +13,7 @@
 int main() {
     // Coloquei esse número enorme só pra poder dizer que é um número indeterminado
     double valores[9999999];
-    // Esse vai ser um valor intermediário, só pra poder verificar se ele n é -1, pois, caso ele seja -1, eu não vou incluir ele no array/vetor
+    // Esse vai ser um valor intermediário, só pra poder verificar se ele o valor inserido não é -1, pois, caso ele seja -1, eu não vou incluir ele no array/vetor
     double valorIntermediario;
     // Basicamente, esse contador só vai server para alterar o index do array e saber quantos foram inseridos no final
     int contador;
