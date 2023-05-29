@@ -1,3 +1,5 @@
+// Aqui eu peguei a mesma ideia do professor, apenas acrescentando alguns comentários de explicação e adicionei a verificação do vencedor
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
