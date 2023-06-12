@@ -8,7 +8,6 @@
 
 int main() {
     char nome[100];
-    int i;
 
     printf("Digite seu nome:\n");
     fgets(nome, sizeof(nome), stdin);
@@ -16,7 +15,7 @@ int main() {
     printf("Nome invertido em letras maiúsculas:");
 
     // Aqui eu retiro 1 do tamanho da variável i por conta do "\O" padrão no final da string
-    for (i = strlen(nome) - 1; i >= 0; i--) {
+    for (int i = strlen(nome) - 1; i >= 0; i--) {
         // A função toupper server para transformar todos os caracteres em caixa alta
         printf("%c", toupper(nome[i]));
     }
