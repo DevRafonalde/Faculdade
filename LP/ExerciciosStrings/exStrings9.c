@@ -47,7 +47,19 @@ int validarCPF(char cpf[]) {
         digito1 += cpfNumerico[i] * multiplicador1;
         multiplicador1--;
     }
-    digito1 = (digito1 % 11 < 2) ? 0 : 11 - (digito1 % 11);
+
+    if (digito1 % 11 < 2) {
+        digito1 = 0;
+    } else {
+        digito1 = 11 - (digito1 % 11);
+    }
+    
+    // A linha de código abaixo serve para fazer exatamente a mesma coisa que fiz no if acima.
+    // Basicamente ele pergunta "O resto da divisão de digito1 por 11 é menor que 2? Se sim digito1 = 0. Se não (:) digito1 = 11 - (digito1 % 11)"
+    // Caso ainda não tenha ficado claro, pode me procurar que eu explico pessoalmente, acho mais fácil de entender nesse caso.
+    // Vou utilizar essa forma abaixo para calcular o digito2
+    
+    // digito1 = (digito1 % 11 < 2) ? 0 : 11 - (digito1 % 11);
 
     // Calcular o segundo dígito verificador
     for (int i = 0, j = 10; i < 10; i++, j--) {
