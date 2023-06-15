@@ -65,6 +65,18 @@ char** lerPalavrasArquivo(FILE *arquivo, int numPalavras) {
 
 int main() {
     // Aqui eu começo o processo de verificar o arquivo de texto
+    // A função fopen("palavrasEx11.txt", "r") serve para abrir o arquivo de nome "palavrasEx11.txt" no modo de leitura ("r"), existem outros modos descritor abaixo
+    // "r" - Abre um arquivo para leitura. O arquivo deve existir.
+
+    // "w" - Cria um arquivo vazio para escrita. Se um arquivo com o mesmo nome já existir, seu conteúdo será apagado e o arquivo será considerado um novo arquivo vazio.
+
+    // "a" -  Anexa dados a um arquivo. Operações de escrita anexam os dados no final do arquivo. O arquivo é criado se não existir.
+
+    // "r+" - Abre um arquivo para leitura e escrita. O arquivo deve existir.
+
+    // "w+" - Cria um arquivo vazio para leitura e escrita.
+
+    // "a+" - Abre um arquivo para leitura e anexação.
     FILE *arquivo = fopen("palavrasEx11.txt", "r");
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo.\n");
