@@ -1,7 +1,8 @@
-# Faculdade
+# UNIFESP
 Exercícios de programação da faculdade divididos por disciplina
 
-LP (1º Semestre) - https://wiki.python.org.br/EstruturaSequencial<br>
+LP - Lógica de Programação (1º Semestre):<br>
+     https://wiki.python.org.br/EstruturaSequencial<br>
      https://wiki.python.org.br/EstruturaDeDecisao<br>
      https://wiki.python.org.br/EstruturaDeRepeticao<br>
      https://wiki.python.org.br/ExerciciosListas<br>
