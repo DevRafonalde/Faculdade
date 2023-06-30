@@ -1,5 +1,5 @@
 // Data por extenso. Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário e imprima a data com o nome do mês por extenso.
-// Existem 2 maneiras de fazer esse exercício. Uma com um array de meses e uma com um Switch-Case ou uma sequência de if-else-if.
+// Existem 3 maneiras de fazer esse exercício. Uma com um array de meses e uma com um Switch-Case ou uma sequência de if-else-if.
 // Nesse caso farei apenas com o array, caso queiram saber como faz dessa outra maneira, me mandem uma msg ou abram uma issue no repositório do github
 
 #include <stdio.h>
