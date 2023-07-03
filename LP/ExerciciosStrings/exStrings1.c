@@ -18,12 +18,12 @@ int main() {
     printf("Digite outra frase qualquer: \n");
     fgets(string2, sizeof(string2), stdin);
 
-    printf("String 1: %s\n", &string1);
-    printf("String 2: %s\n", &string2);
+    printf("String 1: %s\n", string1);
+    printf("String 2: %s\n", string2);
 
     // O 2º argumento do print é uma função que verifica qual o tamanho da string
-    printf("Tamanho de %s: %d caracteres\n", &string1, strlen(string1));
-    printf("Tamanho de %s: %d caracteres\n", &string2, strlen(string2));
+    printf("Tamanho de %s: %d caracteres\n", string1, strlen(string1));
+    printf("Tamanho de %s: %d caracteres\n", string2, strlen(string2));
 
     // Essa função usada dentro do if é usada para comparar 2 strings
     // Se a 1ª string for maior, ela retorna -1
