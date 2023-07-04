@@ -24,6 +24,7 @@ int main() {
     printf("Digite uma string: ");
     fgets(minhaString, sizeof(minhaString), stdin);
 
+    // Aqui eu removo o caractere terminal pra não influenciar na recursão da função acima
     char *caractereTerminal = strchr(minhaString, '\n');
     if (caractereTerminal != NULL) {
         *caractereTerminal = '\0';

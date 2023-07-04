@@ -7,6 +7,7 @@
 #include <stdio.h>
 
 int pertence(int elemento, int conjunto[], int tamanho) {
+    // Justamente pelo fato de o primeiro elemento ser o tamanho do array, aqui eu começo o loop a partir do elemento de index 1
     for (int i = 1; i <= tamanho; i++) {
         if (conjunto[i] == elemento) {
             return 1;
@@ -20,6 +21,7 @@ void interseccao(int A[], int B[], int C[]) {
     int tamanhoB = B[0];
     int tamanhoInterseccao = 0;
 
+    // Justamente pelo fato de o primeiro elemento ser o tamanho do array, aqui eu começo o loop a partir do elemento de index 1
     for (int i = 1; i <= tamanhoA; i++) {
         if (pertence(A[i], B, tamanhoB)) {
             tamanhoInterseccao++;
@@ -39,6 +41,8 @@ int main() {
     interseccao(A, B, C);
 
     printf("Conjunto interseccao (C): ");
+    
+    // Justamente pelo fato de o primeiro elemento ser o tamanho do array, aqui eu começo o loop a partir do elemento de index 1
     for (int i = 1; i <= C[0]; i++) {
         printf("%d ", C[i]);
     }
