@@ -75,9 +75,9 @@ bool verificarQuadradoMagico(int quadrado[3][3]) {
 }
 
 
-// A função gerarPermutacoes utiliza recursão para gerar todas as permutações possíveis dos números de 1 a 9 e preenche as posições do quadrado mágico.
+// Essa função utiliza recursão para gerar todas as permutações possíveis dos números de 1 a 9 e preenche as posições do quadrado mágico.
 // A cada chamada recursiva, uma posição do quadrado é preenchida com um número que ainda não foi utilizado.
-// Quando todas as posições são preenchidas, a função verifica se o quadrado é mágico e, se for, o imprime na tela.
+// Quando todas as posições são preenchidas, ela verifica se o quadrado é mágico e, se for, o imprime na tela.
 void gerarPermutacoes(int numeros[], int tamanho, int posicao, int quadrado[3][3], bool usado[]) {
     // Se todas as posições do quadrado foram preenchidas
     if (posicao == tamanho) {
