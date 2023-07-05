@@ -17,11 +17,11 @@ void imprimirNumeros(int n) {
     }
 }
 
- int main() {
+int main() {
     int numero;
 
     printf("Insira um número: ");
     scanf("%d", &numero);
 
     imprimirNumeros(numero);
- }
+}
