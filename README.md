@@ -8,3 +8,4 @@ LP - Lógica de Programação (1º Semestre):<br>
      https://wiki.python.org.br/EstruturaDeRepeticao<br>
      https://wiki.python.org.br/ExerciciosListas<br>
      https://wiki.python.org.br/ExerciciosComStrings<br>
+     https://wiki.python.org.br/ExerciciosFuncoes<br>
